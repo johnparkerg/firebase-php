@@ -16,8 +16,8 @@ application: `Add Firebase to your app <https://firebase.google.com/docs/server/
 
 Download the Service Account JSON Key to one of the following locations:
 
-#. to the path defined by the environment variable ``GOOGLE_APPLICATION_CREDENTIALS``
 #. to the path defined by the environment variable ``FIREBASE_CREDENTIALS``
+#. to the path defined by the environment variable ``GOOGLE_APPLICATION_CREDENTIALS``
 #. to Google's "well known path"
 
    * on Linux/MacOS: ``$HOME/.config/gcloud/application_default_credentials.json``
