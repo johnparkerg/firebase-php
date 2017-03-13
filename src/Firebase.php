@@ -46,8 +46,8 @@ final class Firebase
     public static function fromDatabaseUriAndSecret($databaseUri, string $secret): V2\Firebase
     {
         trigger_error(
-            'This method is deprecated and will be removed in release 3.0 of this library.'
-            .' Use Firebase\Factory instead.', E_USER_DEPRECATED
+            'This method is deprecated and will be removed in release 3.0 of this library.',
+            E_USER_DEPRECATED
         );
 
         return V2\Firebase::fromDatabaseUriAndSecret($databaseUri, $secret);
